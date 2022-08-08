@@ -1,0 +1,65 @@
+---
+title: "MBAn 501 Group Project Proposal"
+author: "Team 4WARD"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Topic: Effective Communication
+
+## Situation
+
+The MBAn program is very accelerated and the professors may not have time to cover the whole view of effective collaboration. Meanwhile there are plenty of groupworks among each of the classes. Our project is ought to assist students having in-depth knowledge about effective communication as well as the detailed methodologies of how to communicate effectively among team members. 
+
+## Problem Statement
+
+Prospective MBAn students are not knowledgeable about how to communicate effectively in the corporate world. It is difficult for them to adapt to the team-cooperating environment of the MBAn program and further to their careers. Also, they have few ideas about the available team management software and tools which make their lives easier.
+
+## Potential Solutions
+
+To help remedy this problem we will create a publicly accessible guide focused on how future MBAn students can effectively communicate and collaborate. Effective communication and collaboration are keys to team success and will be invaluable as MBAn students continue with the program and their careers. Our guide will first explain the importance of the two topics and then dive deeper into what they look like in the workplace. To do this we will interview current professionals in different industries to see how they effectively communicate and collaborate remotely and face-to-face. We will focus on communication programs that companies use and map out ways in which students can utilize them most effectively. We will also supplement these interviews with further research and data that show the benefits of communication and collaboration.
+
+## Project Formatting
+
+1. This project will be presented in R Markdown based.
+2. This project will be setup as a guideline style website.
+3. Structure of the guideline:
+    
+    + Introduction of the topic and situation
+    + Introduction of authors for this guideline (About Us)
+    + Clickable linked table of content (Reader will be able to go anywhere of this guideline from this section.)
+    + Main content of guideline 
+    + Reference
+
+## Project Timeline
+```{r include=FALSE}
+data <- data.frame(
+  id      = 1:8,
+  content = c("Write Proposal", "Github + Bookdown setup", "Create Interview Questions", "Interview"  ,"Intepret gathered information", "Create user-friendly HTML page", "Prepare for presentation", "Write the guide"),
+  start   = 
+    c("2022-07-19", "2022-07-19", "2022-07-20", "2022-07-25", "2022-07-27", "2022-08-05", "2022-08-10", "2022-08-01"),
+  end     = c(NA, "2022-07-25" , "2022-07-24", "2022-07-26" , "2022-07-31", "2022-08-14", "2022-8-15", "2022-08-08")
+)
+```
+
+
+1. Create interview questions for interviewing current MBAn students and industry professionals 
+
+2. Conduct Interviews and Gather data 
+
+3. Take data and use the information to create different pages that provides information about how to communicate effectively and collaborate effectively in industry and in the MBAn program 
+
+4. Present information in a clear manner that is accessible to users on an HTML website 
+
+5. Prepare for the final presentation to detailed illustrate our project to the audience
+
+
+```{r echo=FALSE}
+library(timevis)
+timevis(data)
+```

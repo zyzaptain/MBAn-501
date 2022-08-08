@@ -1,0 +1,16 @@
+--- 
+title: "Effective Communication in Team Collaboration"
+author: "Team 4WARD"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [citation.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+dsf[@WANG2017/09]
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
